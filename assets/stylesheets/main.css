@@ -166,11 +166,11 @@ Grid
 }
 
 .col-1-3 {
-  width: 32%;
+  width: 33.33%;
 }
 
 .col-2-3 {
-  width: 68%;
+  width: 66.66%;
 }
 
 .col-1-3,
@@ -223,9 +223,9 @@ Rows
 
 .row-alt {
   background: #cbe2c1;
-  background: -webkit-linear-gradient(to rigth, #a1d3b0, #f6f1d3);
-  background: -moz-linear-gradient(to rigth, #a1d3b0, #f6f1d3);
-  background: linear-gradient(to rigth, #a1d3b0, #f6f1d3);
+  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
   padding: 44px 0 22px 0;
 }
 
@@ -276,6 +276,16 @@ Navigation
 
 .nav {
   text-align: right;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.nav li:last-child {
+  margin-right: 0;
 }
 
 /* 
@@ -427,4 +437,22 @@ Primary footer
   font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
+}
+
+/*
+==============================
+Speakers
+==============================
+*/
+
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+
+.speaker {
+  margin-bottom: 44px;
 }
